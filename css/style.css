@@ -1,0 +1,19 @@
+/*body*/
+body{
+    background-image:url('../img/fondo.png') ;
+}
+/*header*/
+header{
+    text-align: center;
+    background-color: rgba(173, 216, 230,0.8);
+    font-family: 'Fruktur', cursive;
+}
+/*main*/
+section{
+    background-color: rgba(173, 216, 230,0.8);
+    font-family: 'Fruktur', cursive;
+    font-family: 'Zen Kurenaido', sans-serif;
+}
+nav, a{
+    color: #191970;
+}
