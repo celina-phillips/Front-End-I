@@ -1,0 +1,38 @@
+/*Body*/
+body´{
+    font-family: "open sans";
+}
+/*Header*/
+header{
+    text-align: center;
+    background-color: #F5F5F5;
+}
+#imagen-perfil{
+    width: 30%;
+    height: 30%;
+}
+/*Main*/
+h2, h3{
+    background-color: #D3D3D3;
+}
+spam{
+    font-weight: bold;
+}
+dt{
+    font-weight: bold;
+}
+.fechas{
+    text-decoration: underline;
+}
+.cursiva{
+    font-style: italic;
+}
+/*footer*/
+footer{
+    text-align: center;
+    background-color:#F5F5F5;
+}
+.img-redes{
+    width: 05%;
+    height: 05%;
+}
