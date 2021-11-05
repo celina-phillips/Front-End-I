@@ -1,0 +1,29 @@
+/*body*/
+body{
+    font-family: 'Inconsolata', monospace;
+}
+/*banner*/
+section.banner{
+    background-image: url('../img/lemon-pie\ 1.jpg');
+    background-size: cover;
+    background-position: top;
+    background-attachment: fixed;
+}
+.letra-blanca{
+    color: white;
+}
+h1.letra-blanca{
+    font-family: 'Ceviche One', cursive;
+    letter-spacing: 0.3rem;
+}
+#color-imagen{
+    background-color: rgba(0,0,0,0.2);
+}
+.centrado{
+    max-width: 80%;
+    margin: 30px auto;
+}
+.titulo{
+    font-weight: bold;
+    font-size: 30px;
+}
