@@ -6,7 +6,7 @@ body{
 section.banner{
     background-image: url('../img/lemon-pie\ 1.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: center;
     background-attachment: fixed;
 }
 .letra-blanca{

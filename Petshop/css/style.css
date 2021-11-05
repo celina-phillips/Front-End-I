@@ -1,0 +1,49 @@
+/*navegador*/
+#nav{
+    background-color: black;
+    color: white;
+}
+header div~div{
+    background-color:#F0A83E;
+} 
+/*banner*/
+section.banner{
+    background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
+}
+h1{
+    max-width: 50%;
+    margin-inline: 250px ;
+    background-color: white;
+    text-align: center;
+}
+#texto-banner{
+    text-align: center;
+    max-width: 50%;
+    margin-inline: 250px ;
+}
+#botton-banner{
+    text-align: center;
+    background-color:#F0A83E ;
+    max-width: 50%;
+    margin-inline: 250px ;   
+}
+.nav-productos{
+    text-align: center;
+}
+#img-productos{
+    background-color: #FBFAF6;
+}
+section.contactanos{
+    text-align: center;
+}
+.boton-contacto{
+    background-color: black;
+    color: white;
+    max-width: 50%;
+    margin-inline: 250px ;
+}
+
+
+
+
+
