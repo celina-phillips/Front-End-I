@@ -42,7 +42,14 @@ section.contactanos{
     max-width: 50%;
     margin-inline: 250px ;
 }
-
+footer{
+    background-color: 
+    #3C2313;
+}
+footer div + div{
+    background-color: black;
+    color: white;
+}
 
 
 
