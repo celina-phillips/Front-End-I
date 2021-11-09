@@ -1,0 +1,10 @@
+*{
+    margin: 0;
+}
+/*Header*/
+header .descuento{
+    background-color: #1CD1B0;
+}
+header div + div{
+    background-color: #00669F;
+}
