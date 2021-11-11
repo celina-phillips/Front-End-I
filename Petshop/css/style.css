@@ -1,7 +1,14 @@
-/*navegador*/
+/*header*/
+ul{
+    
+    display: flex;
+    flex-wrap: wrap;
+}
 #nav{
     background-color: black;
     color: white;
+    display: flex;
+
 }
 header div~div{
     background-color:#F0A83E;

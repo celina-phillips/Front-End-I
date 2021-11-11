@@ -7,6 +7,7 @@ header{
     position: sticky;
     top: 10px;
     z-index: 1;
+    height: 100px;
 }
 header .descuento{
     background-color: #1CD1B0;
@@ -15,8 +16,14 @@ header div + div{
     background-color: #00669F;
 }
 /*Body*/
+body{
+    /*min-height: 100vh;*/
+}
 main{
-    text-align: center;
+    min-height: calc(100vh - 160px );/*es el 100% disponible de la ventana del navegador yt eso le reste lo que ocupa el header y el footer*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 article{
     height: 493px;
@@ -66,7 +73,8 @@ a{
 footer{
     text-align: center;
     background-color: #00669F;
-    margin-top: 80px;
+    bottom: 0px;
+    height: 60px;
 }
 .footer{
     color: white;
