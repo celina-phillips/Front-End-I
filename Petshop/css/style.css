@@ -2,6 +2,7 @@
 *{
     margin:0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 /*header*/
 .primerheader{
@@ -65,29 +66,78 @@ section.banner div{
     gap: 10px;
 }
 
-section.banner div div{
+section.banner div div.banner{
     display: flex;
     flex-direction: column;
     justify-content: center;
     background-color: white;
     width: 300px;
     height: 60px;
+    border-radius: 5%;
 }
 
-#texto-banner{
-    text-align: center;
+section.banner div div.boton{
+    background-color:#F0A83E;
+    width: 140px;
+    height: 48px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-self: center;
+}
 
+section.banner div div.boton a{
+    color: white;
 }
-#botton-banner{
-    text-align: center;
-    background-color:#F0A83E ;   
+
+/*nav productos*/
+
+section div.nav-productos{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-items: center;
+    margin-top: 24px;
+    margin-bottom: 40px;
 }
-.nav-productos{
-    text-align: center;
+
+section div.nav-productos nav ul{
+    display: flex;
+    list-style: none;
+    gap: 10px;
 }
-#img-productos{
+
+section div.nav-productos nav ul li{
+    color: #666666;
+}
+
+section div.nav-productos nav ul li a{
+    color: #666666;
+}
+
+/*arcticles*/
+
+article{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 310px;
+    width: 263px;
     background-color: #FBFAF6;
 }
+
+section div.articles{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+    margin-bottom: 40px;
+}
+
+div.texto-article /*aca me quede*/
+
+
+/*contactanos*/
 section.contactanos{
     text-align: center;
 }
