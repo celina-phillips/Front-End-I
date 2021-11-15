@@ -73,7 +73,7 @@ section.banner div div.banner{
     background-color: white;
     width: 300px;
     height: 60px;
-    border-radius: 5%;
+    border-radius: 10px;
 }
 
 section.banner div div.boton{
@@ -84,6 +84,7 @@ section.banner div div.boton{
     flex-direction: column;
     justify-content: center;
     align-self: center;
+    border-radius: 3px;
 }
 
 section.banner div div.boton a{
@@ -131,27 +132,74 @@ section div.articles{
     justify-content: center;
     gap: 20px;
     align-items: center;
-    margin-bottom: 40px;
+    margin-bottom: 120px;
 }
 
-div.texto-article /*aca me quede*/
+div.texto-article{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
 
 
 /*contactanos*/
+
 section.contactanos{
-    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    margin-bottom: 70px;
 }
-.boton-contacto{
+
+section.contactanos ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+section.contactanos ul li{
     background-color: black;
     color: white;
-    max-width: 50%;
-    margin-inline: 250px ;
+    height: 40px;
+    width: 340px;
+    border-radius: 15px;
 }
-footer{
-    background-color: 
-    #3C2313;
+
+
+/*footer*/
+
+footer div.footer1{
+    background-color: #F0A83E;
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
-footer div + div{
+
+footer div.footer1 h4{
+    color: white;
+    margin-left: 50px;
+}
+
+footer div.footer1 div{
+    margin-right: 50px;
+    display: flex;
+    gap: 5px;
+}
+
+footer div.footer2{
+    background-color: #3C2313;
+    height: 290px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer div.footer3{
     background-color: black;
     color: white;
 }
