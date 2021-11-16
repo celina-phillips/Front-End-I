@@ -122,9 +122,8 @@ article{
     display: flex;
     flex-direction: column;
     align-items: center;
-    height: 310px;
-    width: 263px;
     background-color: #FBFAF6;
+    padding-bottom: 10px;
 }
 
 section div.articles{
@@ -141,8 +140,6 @@ div.texto-article{
     justify-content: center;
     align-items: center;
 }
-
-
 
 /*contactanos*/
 
@@ -167,8 +164,9 @@ section.contactanos ul li{
     height: 40px;
     width: 340px;
     border-radius: 15px;
+    padding-top: 10px;
+    padding-left: 10px;
 }
-
 
 /*footer*/
 
@@ -199,9 +197,42 @@ footer div.footer2{
     align-items: center;
 }
 
+footer div.footer2 img{
+    margin-right: 70px;
+}
+
+footer div.footer2 nav{
+    margin-left: 70px;
+}
+
+footer div.footer2 nav ul li span a{
+    color: white;
+}
+
+footer div.footer2 nav ul li span{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+footer div.footer2 nav ul li{
+    list-style: none;
+    display: flex;
+    justify-content: flex-start;
+}
+
+footer div.footer2 nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
 footer div.footer3{
     background-color: black;
     color: white;
+    text-align: center;
 }
 
 
