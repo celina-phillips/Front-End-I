@@ -75,8 +75,27 @@ footer{
     background-color: #00669F;
     bottom: 0px;
     height: 60px;
+    height: 10%;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 200px;
 }
+
+footer img{
+    height: 40px;
+}
+
 .footer{
     color: white;
 }
+.circulo-mas{
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    top: 50%;
+    right: 0%;
+}
+
+
 
