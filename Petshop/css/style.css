@@ -173,6 +173,20 @@ section.contactanos ul li{
     padding-left: 10px;
 }
 
+section.contactanos div button.resetear{
+    background-color: #8A8787;
+    height: 34px;
+    width: 110px;
+    border-radius: 15px;
+}
+
+section.contactanos div button.enviar{
+    background-color: #F0A83E;
+    height: 34px;
+    width: 110px;
+    border-radius: 15px;
+}
+
 /*footer*/
 
 footer div.footer1{
