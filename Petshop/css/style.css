@@ -49,6 +49,10 @@
     color: white;
 }
 
+.segundoheader nav i{
+    display: none;
+}
+
 /*banner*/
 section.banner{
     background-image: url(../img/bowl-and-pet-daities-on-green-background\ 1.png);
@@ -128,6 +132,7 @@ article{
 
 section div.articles{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     gap: 20px;
     align-items: center;
@@ -235,6 +240,50 @@ footer div.footer3{
     text-align: center;
 }
 
+@media (max-width: 560px){
+    .primerheader{
+        display: none;
+    }
+
+    .segundoheader nav i{
+        display: inline;
+        color: white;
+    }
+    
+    .segundoheader nav ul{
+        display: none;
+    }
+
+    footer div.footer1{
+        flex-direction: column;
+        justify-content: center;
+        gap: 5px;
+    }
+
+    footer div.footer1 h4{
+        margin-left: 0px;
+    }
+
+    footer div.footer1 div{
+        margin-right: 0px;
+    }
+
+    footer div.footer2{
+        flex-direction: column;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    footer div.footer2 img{
+        order: -1;
+        margin-right: 0px;
+    }
+    
+    footer div.footer2 nav{
+        margin-left: 0px;
+    }
+    
+}
 
 
 
