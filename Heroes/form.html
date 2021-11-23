@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heroes</title>
+    <link href="./css/style.css" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div class="descuento">
+            <p>Descuentos 20%</p>
+        </div>
+        <div>
+            <br>
+            <h1>Heroes</h1>
+            <br>
+        </div>
+    </header>
+    <main>
+        <div>
+            <h2>Añadí tu super!</h2>
+            <h4>Agrega tu personaje favorito completando las opciones</h4>
+        </div>
+        <form action="" method="">
+            <div class="izquierda">
+                <div>
+                    <label>Nombre
+                        <input type="text" name="nombre">
+                    </label>
+                </div>
+                <div>
+                    <label>Fecha
+                        <input type="date" name="Fecha">
+                    </label>
+                </div>
+                <div>
+                    <textarea name="descripcion" placeholder="Descripción"></textarea>    
+                </div>
+            </div>
+            <div class="derecha">
+                <div>
+                   <label for="especie">Especie</label>
+                   <select name="especie" id="especie">
+                      <option value="desc">desconocido</option>
+                      <option value="hum">Humano</option>
+                      <option value="Anim">Animal</option>
+                   </select>
+                </div>
+                <div>
+                    <label>Agrega una foto
+                        <input type="file" name="imagen" accept=".jpg, .png">
+                    </label>
+                </div>
+                <div>
+                    <label>Poderes
+                         <label>Volar
+                             <input type="checkbox" name="volar">
+                         </label>
+                    </label>
+                </div>
+
+            </div>
+        </form>
+    </main>
+    <footer>
+        <p class="footer">Todos los derechos reservados a FRONT END 1</p>
+        <img src="./img/Copia de Vector.png" alt="">
+    </footer>   
+</body>
+</html>
