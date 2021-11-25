@@ -1,0 +1,31 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+/*Header*/
+header{
+    position: sticky;
+    top: 10px;
+    z-index: 1;
+    height: 100px;
+}
+header .descuento{
+    background-color: #1CD1B0;
+}
+header div + div{
+    background-color: #00669F;
+}
+
+/*Body*/
+main div.form{
+    text-align: center;
+    background-color: #00669F;
+    width: 854px;
+    height: 732px;
+}
+
+main{
+    display: flex;
+    justify-content: center;
+}
+

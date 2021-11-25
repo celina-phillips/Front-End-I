@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Heroes</title>
-    <link href="./css/style.css" rel="stylesheet">
+    <link href="./css/form.css" rel="stylesheet">
 </head>
 <body>
     <header>
@@ -19,6 +19,7 @@
         </div>
     </header>
     <main>
+      <div class="form">
         <div>
             <h2>Añadí tu super!</h2>
             <h4>Agrega tu personaje favorito completando las opciones</h4>
@@ -54,19 +55,31 @@
                     </label>
                 </div>
                 <div>
-                    <label>Poderes
-                         <label>Volar
-                             <input type="checkbox" name="volar">
-                         </label>
-                    </label>
+                    <label>Poderes</label>
+                        <label for="volar">Volar</label>
+                        <input id="volar" type="checkbox" name="volar">
+                        <label for="intel">Superinteligencia</label>
+                        <input id="intel" type="checkbox" name="intel">
+                        <label for="vista">Vista de rayo láser</label>
+                        <input id="vista" type="checkbox" name="vista">
+                        <label for="bille">Billetera gorda</label>
+                        <input id="bille" type="checkbox" name="bille">                 
                 </div>
-
+                <hr>
+                <div>
+                    <label>Tipo de personaje</label>
+                        <label for="heroe">Heroe / Heroína</label>
+                        <input id="heroe" type="radio" name="personaje">
+                        <label for="villano">Villano / Villana</label>
+                        <input id="villano" type="radio" name="personaje">
+                </div>
             </div>
         </form>
     </main>
     <footer>
         <p class="footer">Todos los derechos reservados a FRONT END 1</p>
         <img src="./img/Copia de Vector.png" alt="">
-    </footer>   
+    </footer>
+</div>   
 </body>
 </html>
