@@ -1,0 +1,103 @@
+:root{
+    --azul-oscuro: #232C50;
+    --gris-claro: 
+    #B3B2B7;
+    --naranja: #F3603B;
+}
+
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+/*header*/
+
+header div{
+    display: none; /*media querie*/
+}
+
+header{
+    height: 12vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-top: 5%;
+}
+
+header i{
+    color: var(--azul-oscuro);
+}
+
+header img{
+    width: 145.54px;
+    height: 23.74px;
+}
+
+/*banner*/
+
+section.banner{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 5%;
+    align-items: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+section.banner div.izquierda{
+    width: 439px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+    text-align: center; /*media querie*/
+    align-items: center;/*mediaquerie*/
+    padding: 20px;
+}
+
+section.banner div.izquierda h1{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 30px;
+    color: var(--azul-oscuro);
+}
+
+section.banner div.izquierda p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    color: var(--gris-claro);/*media querie*/
+}
+
+section.banner div.izquierda div{
+    background-color: var(--naranja) ;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+}
+
+section.banner div.izquierda div a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+section.banner img{
+    width: 439px;
+    height: 400px;
+    order: -1;/*media querie*/
+    padding: 20px;
+}
+
+/* info*/
+
+
