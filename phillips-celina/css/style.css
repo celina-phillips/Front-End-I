@@ -164,11 +164,113 @@ section.info div.derecha div.numeros h3 span.empty{
     padding: 7px;
 }
 
-section.info div.derecha div.numeros p{
+section.info div.derecha div.numeros p{/*media querie para que el p me uqede mas a la derecha*/
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 500;
     color: var(--gris-claro);
 }
+
+/*personas*/
+
+section.personas{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    gap: 80px;
+    align-items: center;
+    margin-bottom: 100px;
+}
+
+section.personas h2{
+    margin-bottom: 50px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 28px;
+    color: var(--azul-oscuro);
+}
+
+section.personas div.articles{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+section.personas div.articles article{
+    width: 400px;
+    height: 219px;
+    text-align: center;
+    background-color: #FAFAFA;
+    position: relative;
+    margin-top: 60px;
+}
+
+section.personas div.articles article img{
+    position: absolute;
+    top: -40px;
+    right: 40%;
+}
+
+section.personas div.articles article div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+    position: absolute;
+    bottom: 37px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+section.personas div.articles article div h3{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--azul-oscuro);
+
+}
+
+section.personas div.articles article div p{
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: var(--gris-claro);
+}
+
+section.personas div.botton{
+    background-color: var(--naranja) ;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    text-align: center;
+}
+
+section.personas div.botton a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
 
 
 
