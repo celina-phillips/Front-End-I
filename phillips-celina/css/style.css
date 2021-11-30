@@ -36,6 +36,8 @@ header img{
     height: 23.74px;
 }
 
+/*main*/
+
 /*banner*/
 
 section.banner{
@@ -260,6 +262,113 @@ section.personas div.botton a{
 }
 
 /*footer*/
+
+footer section.primero{
+    background-color: var(--naranja);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;/*media querie space-between*/
+    /*padding-right: 7%;
+    padding-left: 13%; media querie*/
+    gap: 5%;/*media querie*/
+    align-items: center;
+    height: 250px;
+}
+
+footer section.primero h2{
+    width: 350px;
+    text-align: center;/*media querie*/
+    font-family: 'Be Vietnam Pro', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size: 30px;
+}
+
+footer section.primero div{
+    background-color: white ;
+    height: 40px;
+    width: 120px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 50px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    text-align: center;
+}
+
+footer section.primero div a{
+    text-decoration: none;
+    color: var(--naranja);
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 13px;
+}
+
+footer section.segundo{
+    background-color: #1E1E26;
+    height: 270px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: flex-start;
+    padding-top: 70px;
+}
+
+footer section.segundo div.logo{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap:60px;
+    align-items: center;
+}
+
+footer section.segundo div.logo div{
+    display: flex;
+    gap: 10px;
+}
+
+footer section.segundo div.logo div i{
+    color: white;
+}
+
+footer section.segundo div.primer-nav nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer section.segundo div.primer-nav nav ul li{
+    list-style: none;
+}
+
+footer section.segundo div.primer-nav nav ul li a{
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
+
+footer section.segundo div.segundo-nav nav ul{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+footer section.segundo div.segundo-nav nav ul li{
+    list-style: none;
+}
+
+footer section.segundo div.segundo-nav nav ul li a{
+    text-decoration: none;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 400;
+    font-size: 13px;
+    color: white;
+}
+
+
+
 
 
 
