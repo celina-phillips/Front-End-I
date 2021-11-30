@@ -80,6 +80,7 @@ section.banner div.izquierda div{
     display: flex;
     flex-direction: column;
     justify-content: center;
+    text-align: center;
     border-radius: 50px;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
 }
@@ -306,12 +307,16 @@ footer section.primero div a{
 
 footer section.segundo{
     background-color: #1E1E26;
-    height: 270px;
+    height: 400px;/*en media querie 270*/
     display: flex;
-    flex-wrap: wrap;
+    flex-direction: column;/*media querie*/
+    align-items: center;/*media querie*/
+    gap: 30px;/*media querie*/
+    /*flex-wrap: wrap;
     justify-content: space-around;
     align-items: flex-start;
-    padding-top: 70px;
+    padding-top: 70px;*/
+    padding-top: 30px;/*media querie*/
 }
 
 footer section.segundo div.logo{
@@ -320,28 +325,37 @@ footer section.segundo div.logo{
     justify-content: space-between;
     gap:60px;
     align-items: center;
+    order: 4;/*media querie*/
 }
 
 footer section.segundo div.logo div{
-    display: flex;
-    gap: 10px;
+    /*display: flex;
+    gap: 10px;*/
+    display: none;/*media querie*/
 }
 
-footer section.segundo div.logo div i{
+/*footer section.segundo div.logo div i{
     color: white;
+}*/
+
+/*ver como resuelvo esto*/
+footer section.segundo div.nav{/*media querie todo esto*/
+    display: flex;
+    justify-content: space-between;
+    gap: 50%;
 }
 
-footer section.segundo div.primer-nav nav ul{
+footer section.segundo div.nav div.primer-nav nav ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-footer section.segundo div.primer-nav nav ul li{
+footer section.segundo div.nav div.primer-nav nav ul li{
     list-style: none;
 }
 
-footer section.segundo div.primer-nav nav ul li a{
+footer section.segundo div.nav div.primer-nav nav ul li a{
     text-decoration: none;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 400;
@@ -349,23 +363,230 @@ footer section.segundo div.primer-nav nav ul li a{
     color: white;
 }
 
-footer section.segundo div.segundo-nav nav ul{
+footer section.segundo div.nav div.segundo-nav nav ul{
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-footer section.segundo div.segundo-nav nav ul li{
+footer section.segundo div.nav div.segundo-nav nav ul li{
     list-style: none;
 }
 
-footer section.segundo div.segundo-nav nav ul li a{
+footer section.segundo div.nav div.segundo-nav nav ul li a{
     text-decoration: none;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 400;
     font-size: 13px;
     color: white;
 }
+
+footer section.segundo div.form{
+    display: flex;
+    flex-direction: column;
+    gap: 120px;
+    order: -1;/*media querie*/
+}
+
+footer section.segundo div.form form input.email{
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    padding-left: 10px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+footer section.segundo div.form form input.enviar{
+    height: 40px;
+    border-radius: 50px;
+    border: none;
+    background-color: var(--naranja);
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-family: 'Be Vietnam Pro', sans-serif;
+}
+
+footer section.segundo div.form p{
+    display: none;/*media querie*/
+    /*color: #8C8C94;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+    align-self: flex-end;*/
+}
+
+footer section.segundo div.iconos{/*media querie se va*/
+    display: flex;
+    gap: 30px;
+}
+
+footer section.segundo div.iconos i{/*media querie se va*/
+    color: white;
+    font-size: 30px;
+}
+
+footer section.segundo p{/*en media querie ponerlo display none*/
+    order: 5;
+    color: #8C8C94;
+    font-family: 'Be Vietnam Pro', sans-serif;
+    font-weight: 500;
+    font-size: 10px;
+}
+
+@media (min-width: 450px){
+
+    /*footer*/
+
+    footer section.segundo{
+        height: 270px;
+        display: flex;
+        flex-direction: row;
+        gap:0px;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: flex-start;
+        padding-top: 70px;*/
+        padding-top: 30px;
+    }
+
+    ooter section.segundo div.logo{
+        order: 0;
+    }
+
+    footer section.segundo div.logo div{
+        display: flex;
+        gap: 10px;*/
+    }
+
+    footer section.segundo div.logo div i{
+        color: white;
+    }
+
+    footer section.segundo div.form{
+        order: 0;
+    }
+
+    footer section.segundo div.form p{
+        display: inline;
+        color: #8C8C94;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight: 500;
+        font-size: 10px;
+        align-self: flex-end;
+    }
+
+    footer section.segundo div.iconos{
+        display: none;
+    }
+
+    footer section.segundo p{
+        display: none;
+    }
+
+    footer section.segundo div.logo{
+        order: -1;
+    }
+
+    footer section.segundo div.nav{
+        gap: 80%;
+    }
+    
+    footer section.primero{
+        justify-content: space-between;
+        padding-right: 7%;
+        padding-left: 13%;
+        gap: 0%;
+    }
+
+    footer section.primero h2{
+        text-align: left;
+    }
+
+    /*info*/
+
+    section.info div.izquierda{
+        text-align: left;
+        margin-bottom: 0px;
+    }
+
+    section.info div.izquierda p{
+        color: black;
+    }
+
+    section.info div.derecha div.numeros h3{
+        background-color: transparent;
+    }
+
+    /*me falta hacer que el p me quede mas a la derecha*/
+
+    /*banner*/
+
+    section.banner div.izquierda{
+        text-align: left; /*media querie*/
+        align-items: flex-start;/*mediaquerie*/
+    }
+
+    section.banner div.izquierda p{
+        color: black;
+    }
+
+    section.banner img{
+        order: 1;
+    }
+
+    /*header*/
+
+    header div.nav{
+        display: inline;
+        display: flex;
+        justify-content: space-between;
+        width: 60vw;
+    }
+
+    header div.nav nav ul{
+        list-style: none;
+        display: flex;
+        gap: 23px;
+    }
+
+    header div.nav nav ul li a{
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+        color: var(--azul-oscuro);
+        text-decoration: none;
+    }
+
+    header div.nav a.botton{
+        background-color: var(--naranja) ;
+        height: 40px;
+        width: 120px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        border-radius: 50px;
+        box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+        text-decoration: none;
+        color: white;
+        font-family: 'Be Vietnam Pro', sans-serif;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    header a.icono{
+        display: none;
+    }
+
+
+
+}
+
+
+
+
+
 
 
 
