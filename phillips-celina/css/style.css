@@ -14,7 +14,7 @@
 /*header*/
 
 header div{
-    display: none; /*media querie*/
+    display: none;
 }
 
 header{
@@ -55,8 +55,8 @@ section.banner div.izquierda{
     flex-direction: column;
     justify-content: space-between;
     gap: 20px;
-    text-align: center; /*media querie*/
-    align-items: center;/*mediaquerie*/
+    text-align: center; 
+    align-items: center;
     padding: 20px;
 }
 
@@ -70,7 +70,7 @@ section.banner div.izquierda h1{
 section.banner div.izquierda p{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 500;
-    color: var(--gris-claro);/*media querie*/
+    color: var(--gris-claro);
 }
 
 section.banner div.izquierda div{
@@ -83,6 +83,11 @@ section.banner div.izquierda div{
     text-align: center;
     border-radius: 50px;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
+    transition: background-color 1s ease;
+}
+
+section.banner div.izquierda div:hover{
+    background-color: #FFA07A;
 }
 
 section.banner div.izquierda div a{
@@ -96,7 +101,7 @@ section.banner div.izquierda div a{
 section.banner img{
     width: 439px;
     height: 400px;
-    order: -1;/*media querie*/
+    order: -1;
     padding: 20px;
 }
 
@@ -114,8 +119,8 @@ section.info div.izquierda{
     flex-direction: column;
     gap: 36px;
     width: 337px;
-    text-align: center;/*media querie*/
-    margin-bottom: 55px;/*media querie???*/
+    text-align: center;
+    margin-bottom: 55px;
 }
 
 section.info div.derecha{
@@ -134,7 +139,7 @@ section.info div.izquierda h3{
 
 section.info div.izquierda p{
     font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 500;/*media querie cambiar a 700*/
+    font-weight: 500;
     color: var(--gris-claro);
 }
 
@@ -145,7 +150,7 @@ section.info div.derecha div.numeros{
 }
 
 section.info div.derecha div.numeros h3{
-    background-color: rgba(242, 95, 58, 0.17);/*media querie*/
+    background-color: rgba(242, 95, 58, 0.17);
     padding: 7px;
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 700;
@@ -167,7 +172,7 @@ section.info div.derecha div.numeros h3 span.empty{
     padding: 7px;
 }
 
-section.info div.derecha div.numeros p{/*media querie para que el p me uqede mas a la derecha*/
+section.info div.derecha div.numeros p{
     font-family: 'Be Vietnam Pro', sans-serif;
     font-weight: 500;
     color: var(--gris-claro);
@@ -196,6 +201,7 @@ section.personas div.articles{
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+    gap: 15px;
     margin-right: 10px;
     margin-left: 10px;
 }
@@ -252,6 +258,11 @@ section.personas div.botton{
     border-radius: 50px;
     box-shadow: 0px 4px 8px rgba(242, 97, 59, 0.5);
     text-align: center;
+    transition: background-color 1s ease;
+}
+
+section.personas div.botton:hover{
+    background-color: #FFA07A;
 }
 
 section.personas div.botton a{
@@ -268,17 +279,15 @@ footer section.primero{
     background-color: var(--naranja);
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;/*media querie space-between*/
-    /*padding-right: 7%;
-    padding-left: 13%; media querie*/
-    gap: 5%;/*media querie*/
+    justify-content: center;
+    gap: 5%;
     align-items: center;
     height: 250px;
 }
 
 footer section.primero h2{
     width: 350px;
-    text-align: center;/*media querie*/
+    text-align: center;
     font-family: 'Be Vietnam Pro', sans-serif;
     color: white;
     font-weight: 700;
@@ -295,6 +304,12 @@ footer section.primero div{
     border-radius: 50px;
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
     text-align: center;
+    transition: all 1s ease;
+}
+
+footer section.primero div:hover{
+    background-color: #DCDCDC;
+    opacity: 80%;
 }
 
 footer section.primero div a{
@@ -307,16 +322,12 @@ footer section.primero div a{
 
 footer section.segundo{
     background-color: #1E1E26;
-    height: 400px;/*en media querie 270*/
+    height: 400px;
     display: flex;
-    flex-direction: column;/*media querie*/
-    align-items: center;/*media querie*/
-    gap: 30px;/*media querie*/
-    /*flex-wrap: wrap;
-    justify-content: space-around;
-    align-items: flex-start;
-    padding-top: 70px;*/
-    padding-top: 30px;/*media querie*/
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    padding-top: 30px;
 }
 
 footer section.segundo div.logo{
@@ -325,21 +336,14 @@ footer section.segundo div.logo{
     justify-content: space-between;
     gap:60px;
     align-items: center;
-    order: 4;/*media querie*/
+    order: 4;
 }
 
 footer section.segundo div.logo div{
-    /*display: flex;
-    gap: 10px;*/
-    display: none;/*media querie*/
+    display: none;
 }
 
-/*footer section.segundo div.logo div i{
-    color: white;
-}*/
-
-/*ver como resuelvo esto*/
-footer section.segundo div.nav{/*media querie todo esto*/
+footer section.segundo div.nav{
     display: flex;
     justify-content: space-between;
     gap: 50%;
@@ -361,6 +365,11 @@ footer section.segundo div.nav div.primer-nav nav ul li a{
     font-weight: 400;
     font-size: 13px;
     color: white;
+    transition: color 1s ease;
+}
+
+footer section.segundo div.nav div.primer-nav nav ul li a:hover{
+    color: var(--naranja);
 }
 
 footer section.segundo div.nav div.segundo-nav nav ul{
@@ -379,6 +388,11 @@ footer section.segundo div.nav div.segundo-nav nav ul li a{
     font-weight: 400;
     font-size: 13px;
     color: white;
+    transition: color 1s ease;
+}
+
+footer section.segundo div.nav div.segundo-nav nav ul li a:hover{
+    color: var(--naranja);
 }
 
 footer section.segundo div.form{
@@ -402,31 +416,34 @@ footer section.segundo div.form form input.enviar{
     border: none;
     background-color: var(--naranja);
     color: white;
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     font-family: 'Be Vietnam Pro', sans-serif;
+    transition: background-color 1s ease;
+}
+
+footer section.segundo div.form form input.enviar:hover{
+    cursor: pointer;
+    background-color: #FFA07A;
 }
 
 footer section.segundo div.form p{
-    display: none;/*media querie*/
-    /*color: #8C8C94;
-    font-family: 'Be Vietnam Pro', sans-serif;
-    font-weight: 500;
-    font-size: 10px;
-    align-self: flex-end;*/
+    display: none;
 }
 
-footer section.segundo div.iconos{/*media querie se va*/
+footer section.segundo div.iconos{
     display: flex;
     gap: 30px;
 }
 
-footer section.segundo div.iconos i{/*media querie se va*/
+footer section.segundo div.iconos i{
     color: white;
     font-size: 30px;
 }
 
-footer section.segundo p{/*en media querie ponerlo display none*/
+
+
+footer section.segundo p{
     order: 5;
     color: #8C8C94;
     font-family: 'Be Vietnam Pro', sans-serif;
@@ -434,7 +451,7 @@ footer section.segundo p{/*en media querie ponerlo display none*/
     font-size: 10px;
 }
 
-@media (min-width: 450px){
+@media (min-width: 370px){
 
     /*footer*/
 
@@ -450,7 +467,7 @@ footer section.segundo p{/*en media querie ponerlo display none*/
         padding-top: 30px;
     }
 
-    ooter section.segundo div.logo{
+    footer section.segundo div.logo{
         order: 0;
     }
 
@@ -461,6 +478,13 @@ footer section.segundo p{/*en media querie ponerlo display none*/
 
     footer section.segundo div.logo div i{
         color: white;
+        transition: color,font-size 1s ease;
+    }
+
+    footer section.segundo div.logo div i:hover{
+        cursor: pointer;
+        color: var(--naranja);
+        font-size: 30px;
     }
 
     footer section.segundo div.form{
@@ -518,13 +542,12 @@ footer section.segundo p{/*en media querie ponerlo display none*/
         background-color: transparent;
     }
 
-    /*me falta hacer que el p me quede mas a la derecha*/
 
     /*banner*/
 
     section.banner div.izquierda{
-        text-align: left; /*media querie*/
-        align-items: flex-start;/*mediaquerie*/
+        text-align: left; 
+        align-items: flex-start;
     }
 
     section.banner div.izquierda p{
@@ -556,6 +579,12 @@ footer section.segundo p{/*en media querie ponerlo display none*/
         font-size: 13px;
         color: var(--azul-oscuro);
         text-decoration: none;
+        transition: all 1s ease;
+    }
+
+    header div.nav nav ul li a:hover{
+        color: var(--gris-claro);
+        font-size: 16px;
     }
 
     header div.nav a.botton{
@@ -573,13 +602,16 @@ footer section.segundo p{/*en media querie ponerlo display none*/
         font-family: 'Be Vietnam Pro', sans-serif;
         font-weight: 500;
         font-size: 13px;
+        transition: background-color 1s ease;
+    }
+
+    header div.nav a.botton:hover{
+        background-color: #FFA07A;
     }
 
     header a.icono{
         display: none;
     }
-
-
 
 }
 
